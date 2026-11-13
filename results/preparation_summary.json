@@ -1,0 +1,53 @@
+{
+  "corpus_id": "principles-data-science",
+  "physical_pages": 569,
+  "content_pages_used": 485,
+  "benchmark_questions": 20,
+  "benchmark_split": {
+    "dev": 15,
+    "test": 5
+  },
+  "configurations": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 1000,
+      "overlap": 150,
+      "metadata_filter": false
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "max_size": 1000,
+      "metadata_filter": false
+    },
+    "C": {
+      "chunking": "by_paragraph",
+      "max_size": 1000,
+      "metadata_filter": true
+    }
+  },
+  "strategies": {
+    "A": {
+      "chunk_count": 1661,
+      "total_characters": 1412406,
+      "average_characters": 850.33,
+      "min_characters": 9,
+      "max_characters": 1000
+    },
+    "B": {
+      "chunk_count": 1615,
+      "total_characters": 1247621,
+      "average_characters": 772.52,
+      "min_characters": 9,
+      "max_characters": 1000
+    },
+    "C": {
+      "chunk_count": 1615,
+      "total_characters": 1247621,
+      "average_characters": 772.52,
+      "min_characters": 9,
+      "max_characters": 1000
+    }
+  },
+  "embedding_performed": false,
+  "vector_database_written": false
+}

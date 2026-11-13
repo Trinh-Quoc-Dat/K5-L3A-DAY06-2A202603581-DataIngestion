@@ -1,0 +1,67 @@
+
+{
+  "corpus_id": "principles-data-science",
+  "title": "Principles of Data Science",
+  "authors": [
+    "Shaun V. Ault",
+    "Soohyun Nam Liao",
+    "Larry Musolino"
+  ],
+  "source": "OpenStax Principles of Data Science",
+  "source_url": "https://openstax.org/details/books/principles-data-science",
+  "preface_url": "https://openstax.org/books/principles-data-science/pages/preface",
+  "file": "principles-data-science.pdf",
+  "format": "PDF",
+  "language": "en",
+  "publisher": "OpenStax",
+  "publication_year": 2025,
+  "accessed_at": "2026-11-13",
+
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license_notes": "Non-commercial use with attribution and ShareAlike requirements.",
+  "ai_use_restriction": "OpenStax states that the book may not be used for LLM training or otherwise ingested into LLMs or generative AI offerings without prior written permission.",
+  "ai_embedding_permission_status": "Not confirmed. Real-corpus external embedding is disabled pending permission confirmation.",
+
+  "physical_pages": 569,
+  "pages_with_text": 567,
+  "empty_pages": 2,
+  "valid_content_pages": 485,
+  "valid_content_page_ranges": [
+    "19-503"
+  ],
+  "page_counting_rule": "Count physical PDF pages containing the main instructional content of Chapters 1-10. Include pages 19 through 503 inclusive. Exclude front matter, references, appendices, answer key and index from the 485-page main-content count.",
+  "excluded_page_ranges": [
+    "1-18: Front matter",
+    "504: References",
+    "505-558: Appendices A-D",
+    "559-562: Answer Key",
+    "563-569: Index"
+  ],
+
+  "total_characters": 1248676,
+  "total_words": 196398,
+
+  "extraction": {
+    "library": "pypdf",
+    "preserve_physical_page_numbers": true,
+    "normalization": "Unicode NFKC; normalize line endings; collapse repeated spaces; preserve paragraph breaks"
+  },
+
+  "metadata_fields": [
+    "language",
+    "category",
+    "chapter",
+    "section",
+    "page_has_text",
+    "extraction_method"
+  ],
+
+  "notes": [
+    "All 569 physical pages are retained during PDF extraction, including short and empty pages.",
+    "The 485 valid content pages are the main instructional content from Chapters 1-10.",
+    "The original PDF is not included in the public repository.",
+    "Access the original source through the official OpenStax URL.",
+    "Real-corpus external AI embedding must remain disabled until the required permission is confirmed."
+  ]
+}
